@@ -1,4 +1,14 @@
-fastf1>=3.0.0
-numpy>=1.24.0
-pandas>=2.0.0
-matplotlib>=3.7.0
+# Core ML and Data Processing
+lightgbm>=3.3.5      # ML model for pit window predictions
+numpy>=1.24.3        # Numerical computations and array operations
+pandas>=2.0.2        # Data manipulation and analysis
+scikit-learn>=1.2.2  # ML preprocessing and utilities
+
+# F1 Data Access
+fastf1>=3.0.0        # Official F1 timing data and telemetry
+
+# Visualization
+matplotlib>=3.7.1    # Plotting and visualization
+
+# Optional - for extended features
+xgboost>=2.0.0      # Alternative ML model (if needed)
